@@ -6,8 +6,6 @@
         identification tag
 -->
 
-
-
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 
@@ -22,18 +20,61 @@
 </head>
 
 <body>
-  <h1> Add An Article </h1>
+  <!-- Page Header -->
+  <h1><b>Costume Inventory Manager</b></h1>
+
+  <h2>
+      <button type="button"><a href="index.html">Home</a></button>
+      <button type="button"><a href="rented.html">Rented</a></button>
+      <button type="button"><a href="QR.html">QR</a></button>
+      <button type="button"><a href="addItem.html">Add Item</a></button>
+  </h2>
   <hr>
-  <form class="" action="index.html" method="post">
+  <!-- End of Page Header -->
+
+  <h2> Add An Article </h2>
+  <h4>Enter Information about the article and click submit to process the item</h4>
+  <form class="" action="addAnother.html" method="post">
 
       <label>Article Name:</label>
-      <input type="text" name="Article Name" value=""><br>
+      <input type="text" name="Article Name" value=""><br><br>
 
-      <label>Your Email:</label>
-      <input type="email" name="yourEmail" value=""><br>
+      <label>Item Location:</label>
+      <input type="text" name="itemLocation" value=""><br><br>
 
-      <label>Your Message:</label><br>
-      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <label>Period:</label>
+      <input type="text" name="itemPeriod" value=""><br><br>
+
+      <label>Type:</label>
+      <input type="text" name="itemType" value=""><br><br>
+
+      <label>Color:</label>
+      <input type="text" name="itemColor" value=""><br><br>
+
+      <label>Print:</label>
+      <input type="text" name="itemPrint" value=""><br><br>
+
+      <label>Fabric:</label>
+      <input type="text" name="itemFabric" value=""><br><br>
+
+      <label>Size:</label>
+      <input type="text" name="itemSize" value=""><br><br>
+
+      <label>Sleeve:</label>
+      <input type="text" name="itemSleeve" value=""><br><br>
+
+      <label>Neckline:</label>
+      <input type="text" name="itemNeckline" value=""><br><br>
+
+      <label>Length:</label>
+      <input type="text" name="itemLength" value=""><br><br>
+
+      <label>Ornament:</label>
+      <input type="text" name="itemOrnament" value=""><br><br>
+
+      <label for="myfile">Add A Photo:</label>
+      <input type="file" id="itemPhoto" name="itemPhoto"><br><br>
+      <hr>
 
       <input type="submit" value="Submit" />
   </form>
